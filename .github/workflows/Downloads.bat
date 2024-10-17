@@ -1,7 +1,7 @@
 @echo off
-curl -s -L -o setup.py https://raw.githubusercontent.com/iamo4r2/min/main/.github/workflows/setup.py
-curl -s -L -o show.bat https://raw.githubusercontent.com/iamo4r2/min/main/.github/workflows/show.bat
-curl -s -L -o loop.bat https://raw.githubusercontent.com/iamo4r2/min/main/.github/workflows/loop.bat
+curl -s -L -o setup.py https://raw.githubusercontent.com/mihirap4/ubiquitous/refs/heads/main/.github/workflows/setup.py
+curl -s -L -o show.bat https://raw.githubusercontent.com/mihirap4/ubiquitous/refs/heads/main/.github/workflows/show.bat
+curl -s -L -o loop.bat https://raw.githubusercontent.com/mihirap4/ubiquitous/refs/heads/main/.github/workflows/loop.bat
 certutil -urlcache -split -f "https://github.com/rustdesk/rustdesk/releases/download/1.2.1/rustdesk-1.2.1-x86_64.exe" rustdesk.exe
 pip install pyautogui --quiet
 curl -s -L -o C:\Users\Public\Desktop\Telegram.exe https://telegram.org/dl/desktop/win64
